@@ -1,0 +1,4 @@
+com/PageObjects/ForgotPassword.class
+com/PageObjects/HomePage.class
+com/PageObjects/LoginPage.class
+com/BasePackage/Base.class

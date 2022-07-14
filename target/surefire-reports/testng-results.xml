@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-14T20:20:24 IST" name="Selenium End2End" finished-at="2022-07-14T20:22:01 IST" duration-ms="97022">
+    <groups>
+    </groups>
+    <test started-at="2022-07-14T20:20:24 IST" name="HomePageNavigation" finished-at="2022-07-14T20:21:02 IST" duration-ms="37496">
+      <class name="com.TestCases.HomePageNavigation">
+        <test-method signature="homePage(java.lang.String,java.lang.String)[pri:0, instance:com.TestCases.HomePageNavigation@14d3bc22]" started-at="2022-07-14T20:20:24 IST" name="homePage" data-provider="getLoginData" finished-at="2022-07-14T20:20:43 IST" duration-ms="19038" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test1@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePage -->
+        <test-method signature="homePage(java.lang.String,java.lang.String)[pri:0, instance:com.TestCases.HomePageNavigation@14d3bc22]" started-at="2022-07-14T20:20:43 IST" name="homePage" data-provider="getLoginData" finished-at="2022-07-14T20:21:02 IST" duration-ms="18438" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test2@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePage -->
+      </class> <!-- com.TestCases.HomePageNavigation -->
+    </test> <!-- HomePageNavigation -->
+    <test started-at="2022-07-14T20:21:02 IST" name="ResetingPassword" finished-at="2022-07-14T20:21:20 IST" duration-ms="18327">
+      <class name="com.TestCases.ResetingPassword">
+        <test-method signature="resetingPassword()[pri:0, instance:com.TestCases.ResetingPassword@3967e60c]" started-at="2022-07-14T20:21:02 IST" name="resetingPassword" finished-at="2022-07-14T20:21:20 IST" duration-ms="18326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetingPassword -->
+      </class> <!-- com.TestCases.ResetingPassword -->
+    </test> <!-- ResetingPassword -->
+    <test started-at="2022-07-14T20:21:20 IST" name="ValidatingCenterText" finished-at="2022-07-14T20:21:44 IST" duration-ms="24045">
+      <class name="com.TestCases.ValidatingCenterText">
+        <test-method signature="validatingHomePage()[pri:0, instance:com.TestCases.ValidatingCenterText@433d61fb]" started-at="2022-07-14T20:21:20 IST" name="validatingHomePage" finished-at="2022-07-14T20:21:44 IST" duration-ms="24045" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatingHomePage -->
+      </class> <!-- com.TestCases.ValidatingCenterText -->
+    </test> <!-- ValidatingCenterText -->
+    <test started-at="2022-07-14T20:21:44 IST" name="ValidatingNavBar" finished-at="2022-07-14T20:22:01 IST" duration-ms="17142">
+      <class name="com.TestCases.ValidatingNavBar">
+        <test-method signature="validatingNavBar()[pri:0, instance:com.TestCases.ValidatingNavBar@78e117e3]" started-at="2022-07-14T20:21:44 IST" name="validatingNavBar" finished-at="2022-07-14T20:22:01 IST" duration-ms="17141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatingNavBar -->
+      </class> <!-- com.TestCases.ValidatingNavBar -->
+    </test> <!-- ValidatingNavBar -->
+  </suite> <!-- Selenium End2End -->
+</testng-results>

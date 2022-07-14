@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<suite name="Selenium End2End">
+    <listeners>
+        <listener class-name="com.TestCases.Listerners"/>
+    </listeners>>
+    <test name="HomePageNavigation">
+        <classes>
+            <class name="com.TestCases.HomePageNavigation"/>
+        </classes>
+    </test>
+    <!--    <test name="ResetingPassword">-->
+    <!--        <classes>-->
+    <!--            <class name="com.TestCases.ResetingPassword"/>-->
+    <!--</classes>-->
+    <!--        </test>-->
+    <test name="ValidatingCenterText">
+        <classes>
+
+            <class name="com.TestCases.ValidatingCenterText"/>
+        </classes>
+    </test>
+    <!--    <test name="ValidatingNavBar">-->
+    <!--        <classes>-->
+    <!--            <class name="com.TestCases.ValidatingNavBar"/>-->
+
+    <!--        </classes>-->
+    <!--    </test> &lt;!&ndash; Test &ndash;&gt;-->
+</suite> <!-- Suite -->
