@@ -1,12 +1,13 @@
 pipeline {
-    agent {
-stages {
-        
-        stage('Test') {
-            steps {
-                sh 'mvn test'
-            }
-            }
+  agent any
+  tools {
+    maven 'maven-3.8.6' 
+  }
+  stages {
+    stage ('Build') {
+      steps {
+        sh 'mvn clean test'
+      }
+    }
+  }
 }
-            }
-            }
